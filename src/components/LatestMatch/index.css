@@ -1,0 +1,45 @@
+.LatestMatchContainer {
+  width: 90vw;
+  background-color: #1e293b;
+  background-size: cover;
+  padding: 18px;
+  border-radius: 10px;
+  color: white;
+}
+.firstContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .LatestMatchContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .line {
+    display: none;
+  }
+  .firstContainer {
+    width: 60%;
+  }
+  .secondContainer {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+    align-items: flex-end;
+  }
+  .wonLogoTeam {
+    height: 200px;
+  }
+}
+@media (max-width: 768px) {
+  .wonLogoTeam {
+    height: 100px;
+    margin-left: 10px;
+  }
+}
+
+.line {
+  border: 1px solid #475569;
+}

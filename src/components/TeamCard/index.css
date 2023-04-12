@@ -1,0 +1,19 @@
+.teamCard {
+  padding: 10px;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+  width: 180px;
+  border-radius: 10px;
+  margin: 15px;
+}
+.teamImage {
+  height: 50px;
+  margin-right: 10px;
+}
+.teamName {
+  font-size: 15px;
+  text-align: center;
+  color: white;
+}

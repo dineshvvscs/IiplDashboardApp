@@ -1,0 +1,27 @@
+.teamMatchesContainer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #a4261d, #1e293b);
+}
+.teamImage1 {
+  width: 90%;
+}
+.headingLatestMatch {
+  text-align: left;
+  width: 90vw;
+  color: white;
+}
+.matchCardContainer1 {
+  padding-left: 0px;
+  width: 93%;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
